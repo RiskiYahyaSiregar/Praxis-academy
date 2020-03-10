@@ -16,9 +16,9 @@ public class Main {
 
         System.out.print("Masukkan Alamat Pembeli : ");
         String alamatPembeli = inputScanner.nextLine();
-
         Customer customer1 = new Customer(namaPembeli, alamatPembeli);
 
+        
         System.out.print("Masukkan Nama Barang : ");
         String namaBarang = inputScanner.nextLine();
 
@@ -84,7 +84,8 @@ class Customer{
     public void orderItemsDetail(){
         total = price_items * amount;
 
-        System.out.println("--------- your detail order------");
+        System.out.println("********** Pesan Kamu Bro ***********");
+        System.out.println("********** Terima Kasih Jangan **********");
         System.out.println("name item : " + order_items);
         System.out.println("price item : " + price_items);
         System.out.println("amount item : " + amount);
